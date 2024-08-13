@@ -1,4 +1,9 @@
-# CFU Playground
+## 簡介
+* 本專案建立於開源專案 [CFU-Playground](https://github.com/google/CFU-Playground)
+
+
+
+## CFU Playground
 
 Want a faster ML processor?   Do it yourself!
 
