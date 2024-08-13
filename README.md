@@ -1,7 +1,9 @@
-## 簡介
-* 本專案建立於開源專案 [CFU-Playground](https://github.com/google/CFU-Playground)
+## Intro
+* This project is powered by [CFU-Playground](https://github.com/google/CFU-Playground)
 
+## Report 
 
+Report : [AAML_FINAL_report.pptx.pdf](.ppt/AAML_FINAL_report.pptx.pdf)
 
 ## CFU Playground
 
