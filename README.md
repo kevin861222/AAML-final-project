@@ -3,7 +3,7 @@
 
 ## Report 
 
-Report : [AAML_FINAL_report.pptx.pdf](AAML-final-project/ppt/)
+Report : [AAML_FINAL_report.pptx.pdf](AAML-final-project/ppt)
 
 
 ## Problem
