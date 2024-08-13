@@ -5,6 +5,30 @@
 
 Report : [AAML_FINAL_report.pptx.pdf](.ppt/AAML_FINAL_report.pptx.pdf)
 
+
+## Problem
+- Design a CFU for MLPerf™ Tiny image classification benchmark model and targeting on decreasing latency.
+- The design will be benchmarked by the MLPerf™ Tiny Benchmark Framework. Here is its [Github page](https://github.com/mlcommons/tiny) for detailed information aboud MLPerf™ Tiny.
+
+## Selected model
+- [MLPerf™ Tiny Image Classification Benchmark Model](https://github.com/mlcommons/tiny/tree/master/benchmark/training/image_classification) is a tiny version of ResNet. 
+    - It consists of Conv2D, Add, AvgPool2D, FC, and Softmax. 
+- Try to inspect the architecture of the selected model with [Netron](https://netron.app/). 
+    - Upload the model and you will see a vivid computation graph containing infomation of operators, tensors, and dependency between each objects. 
+    - It might provide you some inspiration for your design.
+
+## Setup
+- Clone this [fork of CFU](https://github.com/liuyy3364/CFU-Playground.git) to get the final project template
+    - Final project template  path: ${CFU_ROOT}/proj/AAML_final_proj
+- Accuracy and Latency are evaluated by the provided evaluation script
+    - Script path: `${CFU_ROOT}/proj/AAML_final_proj/eval_script.py`
+    - Dependency:
+        ```shell=
+        pip install pyserial tdqm
+        ```
+
+
+
 ## CFU Playground
 
 Want a faster ML processor?   Do it yourself!
